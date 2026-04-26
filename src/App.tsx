@@ -188,12 +188,14 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Service 1: Plumbing */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
-              <div className="h-48 overflow-hidden relative">
+              <div className="h-48 overflow-hidden relative bg-slate-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80&w=800" 
+                  src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=60&w=600" 
                   alt="Plumbing services" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute top-4 left-4 bg-blue-600 text-white p-3 rounded-xl shadow-lg">
                   <Wrench className="w-6 h-6" />
@@ -223,12 +225,14 @@ export default function App() {
 
             {/* Service 2: Electrical */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
-              <div className="h-48 overflow-hidden relative">
+              <div className="h-48 overflow-hidden relative bg-slate-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800" 
+                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=60&w=600" 
                   alt="Electrical services" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute top-4 left-4 bg-orange-500 text-white p-3 rounded-xl shadow-lg">
                   <Zap className="w-6 h-6" />
@@ -258,12 +262,14 @@ export default function App() {
 
             {/* Service 3: Satellite */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
-              <div className="h-48 overflow-hidden relative">
+              <div className="h-48 overflow-hidden relative bg-slate-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1592424005688-668f121d58ee?auto=format&fit=crop&q=80&w=800" 
+                  src="https://images.unsplash.com/photo-1592424005688-668f121d58ee?auto=format&fit=crop&q=60&w=600" 
                   alt="Satellite Dish Setup" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 bg-slate-200"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute top-4 left-4 bg-blue-900 text-white p-3 rounded-xl shadow-lg">
                   <Tv className="w-6 h-6" />
