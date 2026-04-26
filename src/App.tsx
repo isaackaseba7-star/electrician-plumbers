@@ -260,8 +260,8 @@ export default function App() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
               <div className="h-48 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800" 
-                  alt="Satellite Dish Installation" 
+                  src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=800" 
+                  alt="TV Mounting and Dish Installation" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 bg-slate-200"
                   referrerPolicy="no-referrer"
                 />
