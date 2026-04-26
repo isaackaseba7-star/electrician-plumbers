@@ -260,9 +260,9 @@ export default function App() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
               <div className="h-48 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1592424005688-668f121d58ee?auto=format&fit=crop&q=80&w=800" 
+                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800" 
                   alt="Satellite Dish Installation" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 bg-slate-200"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute top-4 left-4 bg-blue-900 text-white p-3 rounded-xl shadow-lg">
@@ -419,27 +419,27 @@ export default function App() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             <img 
-              src="https://images.unsplash.com/photo-1607472586893-edb57cbceb42?auto=format&fit=crop&q=80&w=600" 
+              src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80&w=600" 
               alt="Plumbing work" 
-              className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer"
+              className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer bg-slate-200"
               referrerPolicy="no-referrer"
             />
             <img 
-              src="https://images.unsplash.com/photo-1544903332-9cbce30ab38c?auto=format&fit=crop&q=80&w=600" 
+              src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=600" 
               alt="Electrical panel" 
-              className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer"
+              className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer bg-slate-200"
               referrerPolicy="no-referrer"
             />
             <img 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=600" 
-              alt="Office wiring" 
-              className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer"
+              src="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80&w=600" 
+              alt="Office wiring / Team" 
+              className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer bg-slate-200"
               referrerPolicy="no-referrer"
             />
             <img 
-              src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=600" 
-              alt="Tools close up" 
-              className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer"
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600" 
+              alt="Roof installation" 
+              className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer bg-slate-200"
               referrerPolicy="no-referrer"
             />
           </div>
@@ -447,17 +447,31 @@ export default function App() {
       </section>
 
       {/* Service Areas */}
-      <section id="areas" className="py-16 bg-white border-y border-slate-100">
-        <div className="container mx-auto px-4 max-w-5xl text-center">
-          <MapPin className="w-12 h-12 text-orange-500 mx-auto mb-6" />
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">We serve all areas in Lusaka including:</h2>
+      <section id="areas" className="py-20 bg-white border-y border-slate-100">
+        <div className="container mx-auto px-4 max-w-6xl text-center">
+          <MapPin className="w-12 h-12 text-orange-500 mx-auto mb-6 flex-shrink-0" />
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">We serve all areas in Lusaka including:</h2>
           
-          <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-12">
             <span className="bg-slate-100 text-slate-800 px-6 py-3 rounded-full font-bold text-lg">City Market</span>
             <span className="bg-slate-100 text-slate-800 px-6 py-3 rounded-full font-bold text-lg">Chilenje</span>
             <span className="bg-slate-100 text-slate-800 px-6 py-3 rounded-full font-bold text-lg">Kalingalinga</span>
             <span className="bg-slate-100 text-slate-800 px-6 py-3 rounded-full font-bold text-lg">Kabulonga</span>
             <span className="bg-slate-100 text-slate-800 px-6 py-3 rounded-full font-bold text-lg">Chelston</span>
+          </div>
+
+          <div className="w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-200 h-[400px] md:h-[500px] bg-slate-100 relative">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155858.91899120616!2d28.163629471113274!3d-15.415082006351744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1940f37db2016ebf%3A0x8677c70c1fc91024!2sLusaka%2C%20Zambia!5e0!3m2!1sen!2s!4v1714120305101!5m2!1sen!2s" 
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen={false} 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Lusaka Service Area Map"
+              className="absolute inset-0"
+            ></iframe>
           </div>
         </div>
       </section>
