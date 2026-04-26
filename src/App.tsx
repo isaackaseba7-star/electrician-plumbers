@@ -260,7 +260,7 @@ export default function App() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
               <div className="h-48 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1614064500597-28d6896264d1?auto=format&fit=crop&q=80&w=800" 
+                  src="https://images.unsplash.com/photo-1592424005688-668f121d58ee?auto=format&fit=crop&q=80&w=800" 
                   alt="Satellite Dish Setup" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 bg-slate-200"
                   referrerPolicy="no-referrer"
@@ -437,7 +437,7 @@ export default function App() {
               referrerPolicy="no-referrer"
             />
             <img 
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600" 
+              src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=600" 
               alt="Roof installation" 
               className="w-full aspect-square object-cover rounded-xl shadow-sm hover:opacity-90 transition-opacity cursor-pointer bg-slate-200"
               referrerPolicy="no-referrer"
